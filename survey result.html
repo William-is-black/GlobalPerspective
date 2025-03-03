@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Results</title>
+    <link rel="stylesheet" href="survey-results.css">
+</head>
+<body>
+    <header>
+        <h1>Survey Results</h1>
+    </header>
+    <main>
+        <section class="gallery">
+            <h2>Survey Image Gallery</h2>
+            <div class="image-grid">
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 1" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 2" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 3" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 4" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 5" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 6" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 7" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 8" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 9" onclick="openPreview(this)"></div>
+                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 10" onclick="openPreview(this)"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Survey Results. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Image Preview Modal -->
+    <div id="image-modal" class="modal">
+        <span class="close" onclick="closePreview()">&times;</span>
+        <img class="modal-content" id="preview-img">
+    </div>
+
+    <script src="survey-results.js"></script>
+</body>
+</html>
