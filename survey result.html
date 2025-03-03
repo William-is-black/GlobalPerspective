@@ -1,42 +1,172 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Results</title>
-    <link rel="stylesheet" href="survey-results.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Water Pollution in Penang - Survey Analysis</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+ 
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+ 
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+ 
+        h2 {
+            color: #0077cc;
+            border-bottom: 2px solid #0077cc;
+            padding-bottom: 5px;
+        }
+ 
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #e8f4fc;
+            border-radius: 5px;
+        }
+ 
+        .gap {
+            font-weight: bold;
+            color: red;
+        }
+ 
+        footer {
+            text-align: center;
+            background: #0077cc;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+ 
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Survey Results</h1>
-    </header>
-    <main>
-        <section class="gallery">
-            <h2>Survey Image Gallery</h2>
-            <div class="image-grid">
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 1" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 2" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 3" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 4" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 5" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 6" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 7" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 8" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 9" onclick="openPreview(this)"></div>
-                <div class="image-slot"><img src="placeholder.jpg" alt="Survey Image 10" onclick="openPreview(this)"></div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Survey Results. All Rights Reserved.</p>
-    </footer>
-
-    <!-- Image Preview Modal -->
-    <div id="image-modal" class="modal">
-        <span class="close" onclick="closePreview()">&times;</span>
-        <img class="modal-content" id="preview-img">
-    </div>
-
-    <script src="survey-results.js"></script>
+ 
+<header>Water Pollution in Penang - Survey Analysis</header>
+ 
+<div class="container">
+ 
+    <h2>1. How concerned are people about water pollution?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Very concerned: 4%</li>
+<li>Somewhat concerned: 42%</li>
+<li>Neutral: 36%</li>
+<li>Concerned a bit: 13%</li>
+<li>Not concerned at all: 4%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> Only a small percentage (4%) are deeply concerned, which indicates a lack of urgency regarding the issue.</p>
+<p><strong>Solution:</strong> More awareness campaigns highlighting the **severe impact of water pollution** on health and the environment.</p>
+</div>
+ 
+    <h2>2. What are the main causes of water pollution?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Plastic waste and littering: 74%</li>
+<li>Household waste & sewage: 61%</li>
+<li>Industrial waste disposal: 53%</li>
+<li>Agricultural runoff: 22%</li>
+<li>Oil spills & shipping activities: 36%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> Many respondents **overlook the role of agricultural runoff** and **oil spills**, which are major contributors.</p>
+<p><strong>Solution:</strong> Education on how **fertilizers, pesticides, and oil spills** contribute to water pollution and ways to minimize them.</p>
+</div>
+ 
+    <h2>3. How does water pollution impact marine life?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Reduces oxygen levels, leading to fish deaths: 12%</li>
+<li>Causes harmful algal blooms: 9%</li>
+<li>Leads to bioaccumulation of toxins: 22%</li>
+<li>All of the above: 56%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> Harmful **algal blooms** are severely underrecognized despite their devastating effects on aquatic ecosystems.</p>
+<p><strong>Solution:</strong> Promote research and data on **algal bloom incidents** and how they relate to **fertilizer use & climate change**.</p>
+</div>
+ 
+    <h2>4. How does water pollution affect the economy?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Loss of tourism revenue: 2%</li>
+<li>Damage to fisheries and marine life: 27%</li>
+<li>Increased government spending on water treatment: 7%</li>
+<li>All of the above: 60%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> People **underestimate the economic impact** on government spending and tourism.</p>
+<p><strong>Solution:</strong> Case studies on how water pollution leads to **lower tourism numbers and higher water treatment costs**.</p>
+</div>
+ 
+    <h2>5. What actions is the government taking?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Implementing stricter laws: 21%</li>
+<li>Conducting river clean-up initiatives: 14%</li>
+<li>Promoting awareness & education: 15%</li>
+<li>All of the above: 49%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> Public **participation in clean-ups** is low.</p>
+<p><strong>Solution:</strong> **Encourage volunteer programs** for river and coastal clean-ups.</p>
+</div>
+ 
+    <h2>6. How does Penang compare to other regions?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Worse due to urbanization: 23%</li>
+<li>Similar to other coastal states: 24%</li>
+<li>Better due to regulations: 9%</li>
+<li>Not sure: 44%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> **44% are unsure**, meaning there is **a lack of comparative data** available.</p>
+<p><strong>Solution:</strong> Publish reports comparing **Penang’s water quality to other Malaysian states**.</p>
+</div>
+ 
+    <h2>7. How confident are people in their knowledge?</h2>
+<div class="section">
+<p><strong>Survey Results:</strong></p>
+<ul>
+<li>Very confident: 2%</li>
+<li>Somewhat confident: 42%</li>
+<li>Not very confident: 26%</li>
+<li>Don’t know much: 30%</li>
+</ul>
+<p class="gap"><strong>Knowledge Gap:</strong> **Low confidence** in water pollution knowledge among the general public.</p>
+<p><strong>Solution:</strong> **Educational programs** in schools and workplaces on water pollution issues.</p>
+</div>
+ 
+</div>
+ 
+<footer>
+&copy; 2025 Water Pollution Awareness | Survey Analysis & Research
+</footer>
+ 
 </body>
 </html>
